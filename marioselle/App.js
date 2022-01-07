@@ -16,19 +16,8 @@ import {
   Image,
   Dimensions,
   Animated,
-  TouchableOpacity,
   Platform,
-  SafeAreaView,
 } from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-import LinearGradient from 'react-native-linear-gradient';
 import {getMovies} from './api';
 
 const {width, height} = Dimensions.get('window');
